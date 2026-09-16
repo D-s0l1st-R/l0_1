@@ -1,23 +1,24 @@
-import './App.css'
-
-import Header from './Header'
-import Dashboard from './Dashboard'
-import About from './About'
-import Gallery from './Gallery'
-import Contact from './Contact'
-import Footer from './Footer'
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Gallery from "./components/Gallery";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import "./index.css";
 
 function App() {
   return (
     <>
-      <Header></Header>
-      <Dashboard></Dashboard>
-      <About></About>
-      <Gallery></Gallery>
-      <Contact></Contact> 
-      <Footer></Footer>
+      <Header />
+      <main>
+        <Hero />
+        <About />
+        <Gallery />
+        <Contact />
+      </main>
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
