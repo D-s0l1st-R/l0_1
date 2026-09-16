@@ -1,0 +1,13 @@
+#contact {
+  background-color: beige;
+  align-items: center;
+  min-height: 200px;
+}
+
+#contact h2 {
+  color: black;
+}
+
+#contact p {
+  text-align: justify;
+}
